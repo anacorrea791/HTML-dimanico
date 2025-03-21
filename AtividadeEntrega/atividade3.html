@@ -46,12 +46,12 @@
 
         <form id="frmRegistro" name="frmRegistro" action="#">
             <input id="inData" name="inData" type="date">
-            <input id="inCli" name="inCli" type="text" placeholder="Nome do cliente">
+            <input id="inCli" name="inCli" type="text" onclick="nome()" placeholder="Nome do cliente">
             <input id="inFone" name="inFone" type="tel" placeholder="Telefone">
-            <input id="inMail" name="inMail" type="email" placeholder="E-mail">
-            <input id="inProd" name="inProd" type="text" placeholder="Nome do produto">
-            <input id="inQtd" name="inQtd" type="number" placeholder="Quantidade">
-            <input id="inVal" name="inVal" type="number" placeholder="Valor unitário">
+            <input id="inMail" name="inMail" type="email" onclick="email()" placeholder="E-mail">
+            <input id="inProd" name="inProd" type="text" onclick="produto()" placeholder="Nome do produto">
+            <input id="inQtd" name="inQtd" type="number" onclick="quantidade()" placeholder="Quantidade">
+            <input id="inVal" name="inVal" type="number" onclick="valor()" placeholder="Valor unitário">
             <div class="div-botoes">
                 <button onclick="validaForm()" id="btnEnviar" name="btnEnviar" type="button">Enviar</button>  
             </div>            
